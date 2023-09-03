@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="blackjack.css"></link>
+    <script src="blackjack.js"></script>
+</head>
+
+<body>
+    <!-- Span element (used for minor text modifications) is used to manipulate content 
+        related to dealer's sum -->
+    <h2>Dealer: <span id="dealer-sum"></span></h2>
+    <!-- image tags for the dealer's cards -->
+    <div id="dealer-cards">
+        <!-- Image has an id so that you can change the value after -->
+        <img id="hidden" src="./cards/BACK.png">
+    </div>
+
+    <h2>You: <span id="your-sum"></span></h2>
+    <div id="your-cards"></div>
+    <br>
+    <button id="hit">Hit</button>
+    <button id="stay">Stay</button>
+    <p id="results"></p>
+
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#dealer-cards img {
+    height: 175px;
+    width: 120px;
+    margin: 1px;
+}
+
+#your-cards img {
+    height: 175px;
+    width: 120px;
+    margin: 1px;
+}
+
+#hit {
+    height: 50px;
+    width: 100px;
+    font-size: 20px; /* the text inside the button's size */
+}
+
+#stay {
+    height: 50px;
+    width: 100px;
+    font-size: 20px; 
+}
